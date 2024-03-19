@@ -180,6 +180,18 @@ body{
         background-position: center bottom;
         transition: 0.1s;
 }
+.banner .bg:nth-child(3) h1, 
+.banner .bg:nth-child(3) h5
+{
+    color: #c0ebc2;
+    font-size: 25px;
+    margin: 0;
+    text-shadow: 0 0px 20px #2f3a29;
+}
+.banner .bg:nth-child(3) h1
+{
+    font-size: 6vw;
+}
 .tab{
     min-height: 900px;
     position: relative;
@@ -204,8 +216,7 @@ body{
    text-align: center;
    align-items: end;
    padding: 10rem 0 0 0;
-     font-size: 80%;
-    
+   font-size: 80%;
 }
 .tab.tab2{  
     background:linear-gradient(
@@ -216,7 +227,7 @@ body{
    text-align: center;
    align-items: end;
    padding: 10rem 0 0 0;
-     font-size: 80%;
+   font-size: 80%;
    
 }
 .tab.tab3{
@@ -227,7 +238,7 @@ body{
    background-size:185% ;
    text-align: center;
    align-items: end;
-     font-size: 80%;
+   font-size: 80%;
 }
 
 }
