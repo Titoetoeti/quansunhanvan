@@ -43,13 +43,13 @@ body{
 .banner .bg:nth-child(3) h5
 {
     color: #c0ebc2;
-    font-size: 50px;
+    font-size: 60px;
     margin: 0;
     text-shadow: 0 0px 20px #2f3a29;
 }
 .banner .bg:nth-child(3) h1
 {
-    font-size: 8vw;
+    font-size: 9vw;
 }
 .banner .bg:nth-child(4){
     background-image: url(image/cong\ 2.png);
@@ -164,7 +164,7 @@ body{
 
 
 
-@media screen and (max-width:800px){
+@media screen and (max-width:1110px){
     .banner{
         height: px;
         position:relative;
@@ -190,7 +190,7 @@ body{
 }
 .banner .bg:nth-child(3) h1
 {
-    font-size: 5vw;
+    font-size: 6vw;
 }
 .tab{
     min-height: 900px;
@@ -216,7 +216,7 @@ body{
    text-align: center;
    align-items: end;
    padding: 10rem 0 0 0;
-   font-size: 70%;
+   font-size: 80%;
 }
 .tab.tab2{  
     background:linear-gradient(
@@ -227,7 +227,7 @@ body{
    text-align: center;
    align-items: end;
    padding: 10rem 0 0 0;
-   font-size: 70%;
+   font-size: 80%;
    
 }
 .tab.tab3{
@@ -237,8 +237,8 @@ body{
    background-position: center;
    background-size:185% ;
    text-align: center;
-   align-items: end;
-   font-size: 70%;
+   align-items: center;
+   font-size: 80%;
 }
 
 }
