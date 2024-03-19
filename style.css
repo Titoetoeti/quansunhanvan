@@ -216,7 +216,7 @@ body{
    text-align: center;
    align-items: end;
    padding: 10rem 0 0 0;
-   font-size: 80%;
+   font-size: 70%;
 }
 .tab.tab2{  
     background:linear-gradient(
@@ -227,7 +227,7 @@ body{
    text-align: center;
    align-items: end;
    padding: 10rem 0 0 0;
-   font-size: 80%;
+   font-size: 70%;
    
 }
 .tab.tab3{
@@ -235,10 +235,10 @@ body{
         to top, #010302 0%, transparent 20% , #010302 95%
    ),url(image/4\ lù\ chan.jpg);
    background-position: center;
-   background-size:185% ;
+   background-size:200% ;
    text-align: center;
    align-items: center;
-   font-size: 80%;
+   font-size: 70%;
 }
 
 }
