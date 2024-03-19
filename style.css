@@ -190,7 +190,7 @@ body{
 }
 .banner .bg:nth-child(3) h1
 {
-    font-size: 6vw;
+    font-size: 5vw;
 }
 .tab{
     min-height: 900px;
@@ -216,7 +216,7 @@ body{
    text-align: center;
    align-items: end;
    padding: 10rem 0 0 0;
-   font-size: 80%;
+   font-size: 70%;
 }
 .tab.tab2{  
     background:linear-gradient(
@@ -227,7 +227,7 @@ body{
    text-align: center;
    align-items: end;
    padding: 10rem 0 0 0;
-   font-size: 80%;
+   font-size: 70%;
    
 }
 .tab.tab3{
@@ -238,7 +238,7 @@ body{
    background-size:185% ;
    text-align: center;
    align-items: end;
-   font-size: 80%;
+   font-size: 70%;
 }
 
 }
