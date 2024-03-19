@@ -83,26 +83,31 @@ body{
     background:linear-gradient(
         to top, #010302 0%, transparent 20% , #010302 95%
    ),url(image/Ho\ da.jpg);
+   background-position: center;
+  
+ 
 }
 .tab.tab2{  
     background:linear-gradient(
-        to top, #010302 0%, transparent 50% , #010302 95%
+        to top, #010302 0%, transparent 20% , #010302 100%
    ),url(image/A8\ C23.jpg);
+   background-position: center;
 }
 .tab.tab3{
     background:linear-gradient(
         to top, #010302 0%, transparent 20% , #010302 95%
    ),url(image/4\ lù\ chan.jpg);
+   background-position: center;
 }
 .tab.tab1 .content{
     width: 900px;
-    max-width: 90%;
+    max-width: 100%;
     color: #eee;
 }
 .tab.tab2 .content{
     color: #eee;
     width: 900px;
-    max-width: 90%;
+    max-width: 100%;
 }
 .tab.tab2 .content .des{
     display: grid;
@@ -111,6 +116,114 @@ body{
 }
 .tab.tab3 .content{
     width: 900px;
-    max-width: 90%;
+    max-width: 100%;
     color: #eee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px){
+    .banner{
+        height: px;
+        position:relative;
+        overflow:hidden;
+    }
+    .banner .bg{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background-size: 100%;
+        background-position: center bottom;
+        transition: 0.1s;
+}
+.tab{
+    min-height: 900px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab::before{
+    position: absolute;   
+    content: '';
+    bottom: 100%;
+    left: 0;
+}
+.tab.tab1{
+    background:linear-gradient(
+        to top, #010302 0%, transparent 20% , #010302 95%
+   ),url(image/Ho\ da.jpg);
+   background-position: center;
+   background-size: 290%;
+   text-align: center;
+   align-items: end;
+   padding: 10rem 0 0 0;
+}
+.tab.tab2{  
+    background:linear-gradient(
+        to top, #010302 0%, transparent 20% , #010302 100%
+   ),url(image/A8\ C23.jpg);
+   background-position: bottom;
+   background-size: 150%;
+   text-align: center;
+   align-items: end;
+   padding: 10rem 0 0 0;
+   
+}
+.tab.tab3{
+    background:linear-gradient(
+        to top, #010302 0%, transparent 20% , #010302 95%
+   ),url(image/4\ lù\ chan.jpg);
+   background-position: center;
+   background-size:185% ;
+   text-align: center;
+   align-items: end;
+}
+
 }
