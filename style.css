@@ -57,7 +57,7 @@ body{
 
 
 .tab{
-    min-height: 850px;
+    min-height: 900px;
     background-color: #010302;
     z-index: 1;
     position: relative;
@@ -97,7 +97,7 @@ body{
     background:linear-gradient(
         to top, #010302 0%, transparent 20% , #010302 95%
    ),url(image/4\ lù\ chan.jpg);
-   background-position: center;
+   
 }
 .tab.tab1 .content{
     width: 900px;
@@ -119,6 +119,89 @@ body{
     max-width: 100%;
     color: #eee;
 }
+.tab.tab4{
+    background:linear-gradient(
+        to top, #010302 0%, transparent 20% , #010302 95%
+   ),url(image/tieu\ doi\ 8\ 2.jpg)
+   
+}
+.tab.tab4 .content{
+    width: 900px;
+    max-width: 100%;
+    color: #eee;
+}
+.tab.tab4 .content .des{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+.tab.tab5{
+    background:linear-gradient(
+        to top, #010302 0%, transparent 20% , #010302 95%
+   ),url(image/anh\ Khenh\ danh\ dan.jpg)
+   
+}
+.tab.tab5 .content{
+    width: 900px;
+    max-width: 100%;
+    color: #eee;
+}
+.tab.tab6{
+    background:linear-gradient(
+        to top, #010302 0%, transparent 60% , #010302 100%
+   ),url(image/ngay\ dau\ nhan\ phong.jpg)
+   
+}
+.tab.tab6 .content{
+    width: 900px;
+    max-width: 100%;
+    color: #eee;
+}
+.tab.tab7{
+    background:linear-gradient(
+        to top, #010302 0%, transparent 20% , #010302 100%
+   ),url(image/Bảo\ bao\ ae\ kem\ chuối.jpg)
+   
+}
+.tab.tab7 .content{
+    width: 900px;
+    max-width: 100%;
+    color: #eee;
+}
+.tab.tab8 {
+    background:linear-gradient(
+        to top, #010302 0%, transparent 20% , #010302 100%
+   ),url(image/BTS.jpg)
+   
+}
+.tab.tab8 .content{
+    width: 900px;
+    max-width: 100%;
+    color: #eee;
+}
+.tab.tab9 {
+    background:linear-gradient(
+        to top, #010302 0%, transparent 40% , #010302 100%
+   ),url(image/Quyết\ thắng\ lợi.jpg)
+   
+}
+.tab.tab9 .content{
+    width: 900px;
+    max-width: 100%;
+    color: #eee;
+}
+.tab.tab10 {
+    background:linear-gradient(
+        to top, #010302 0%, transparent 40% , #010302 100%
+   ),url(image/dem\ gala2.png)
+   
+}
+.tab.tab10 .content{
+    width: 900px;
+    max-width: 100%;
+    color: #eee;
+}
+
 
 
 
