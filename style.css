@@ -154,7 +154,7 @@ body{
     background:linear-gradient(
         to top, #010302 0%, transparent 60% , #010302 100%
    ),url(image/ngay\ dau\ nhan\ phong.jpg);
-   background-position: center;
+   background-position: top;
    
 }
 .tab.tab6 .content{
@@ -202,7 +202,7 @@ body{
     background:linear-gradient(
         to top, #010302 0%, transparent 40% , #010302 100%
    ),url(image/dem\ gala2.png);
-   background-position: center;
+   background-position: top;
    
 }
 
