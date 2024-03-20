@@ -97,6 +97,7 @@ body{
     background:linear-gradient(
         to top, #010302 0%, transparent 20% , #010302 95%
    ),url(image/4\ lù\ chan.jpg);
+   background-position: center;
    
 }
 .tab.tab1 .content{
@@ -122,7 +123,9 @@ body{
 .tab.tab4{
     background:linear-gradient(
         to top, #010302 0%, transparent 20% , #010302 95%
-   ),url(image/tieu\ doi\ 8\ 2.jpg)
+   ),url(image/tieu\ doi\ 8\ 2.jpg);
+   background-position: center;
+
    
 }
 .tab.tab4 .content{
@@ -138,7 +141,8 @@ body{
 .tab.tab5{
     background:linear-gradient(
         to top, #010302 0%, transparent 20% , #010302 95%
-   ),url(image/anh\ Khenh\ danh\ dan.jpg)
+   ),url(image/anh\ Khenh\ danh\ dan.jpg);
+   background-position: center;
    
 }
 .tab.tab5 .content{
@@ -149,7 +153,8 @@ body{
 .tab.tab6{
     background:linear-gradient(
         to top, #010302 0%, transparent 60% , #010302 100%
-   ),url(image/ngay\ dau\ nhan\ phong.jpg)
+   ),url(image/ngay\ dau\ nhan\ phong.jpg);
+   background-position: center;
    
 }
 .tab.tab6 .content{
@@ -160,7 +165,8 @@ body{
 .tab.tab7{
     background:linear-gradient(
         to top, #010302 0%, transparent 20% , #010302 100%
-   ),url(image/Bảo\ bao\ ae\ kem\ chuối.jpg)
+   ),url(image/Bảo\ bao\ ae\ kem\ chuối.jpg);
+   background-position: center;
    
 }
 .tab.tab7 .content{
@@ -171,7 +177,8 @@ body{
 .tab.tab8 {
     background:linear-gradient(
         to top, #010302 0%, transparent 20% , #010302 100%
-   ),url(image/BTS.jpg)
+   ),url(image/BTS.jpg);
+   background-position: center;
    
 }
 .tab.tab8 .content{
@@ -182,7 +189,8 @@ body{
 .tab.tab9 {
     background:linear-gradient(
         to top, #010302 0%, transparent 40% , #010302 100%
-   ),url(image/Quyết\ thắng\ lợi.jpg)
+   ),url(image/Quyết\ thắng\ lợi.jpg);
+   background-position: center;
    
 }
 .tab.tab9 .content{
@@ -193,12 +201,14 @@ body{
 .tab.tab10 {
     background:linear-gradient(
         to top, #010302 0%, transparent 40% , #010302 100%
-   ),url(image/dem\ gala2.png)
+   ),url(image/dem\ gala2.png);
+   background-position: center;
    
 }
+
 .tab.tab10 .content{
-    width: 900px;
-    max-width: 100%;
+    width:900px;
+    max-width:100%;
     color: #eee;
 }
 
